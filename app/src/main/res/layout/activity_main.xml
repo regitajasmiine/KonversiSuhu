@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="CELCIUS"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="15dp"/>
+
+        <EditText
+            android:id="@+id/celcius"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_toRightOf="@+id/txt1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="80dp" />
+        <Button
+            android:id="@+id/btn_konversi"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="10dp"
+            android:background="#E72E69"
+            android:text="KONVERSI"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="KELVIN"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="230dp"
+            android:layout_marginLeft="15dp"/>
+
+        <EditText
+            android:id="@+id/kelvin"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_toRightOf="@+id/txt2"
+            android:layout_marginLeft="63dp"
+            android:layout_marginTop="200dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="FARENHEIT"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="280dp"
+            android:layout_marginLeft="15dp"/>
+
+        <EditText
+            android:id="@+id/farenheit"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_toRightOf="@+id/txt3"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="260dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txt4"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="REAMUR"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="350dp"
+            android:layout_marginLeft="15dp"/>
+
+        <EditText
+            android:id="@+id/reamur"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_toRightOf="@+id/txt4"
+            android:layout_marginLeft="47dp"
+            android:layout_marginTop="320dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
